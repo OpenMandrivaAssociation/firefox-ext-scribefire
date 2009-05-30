@@ -6,7 +6,7 @@
 
 Summary: ScribeFire extension for firefox
 Name: firefox-ext-scribefire
-Version: 3.3
+Version: 3.3.1
 Release: %mkrel 1
 License: GPLv2
 Group: Networking/WWW
