@@ -1,5 +1,5 @@
 %define ff_epoch 0
-%define ff_ver 3.0.12
+%define ff_ver 3.0.13
 
 %define _mozillapath %{_libdir}/firefox-%{ff_ver}
 %define _mozillaextpath %{_mozillapath}/extensions
@@ -7,7 +7,7 @@
 Summary: ScribeFire extension for firefox
 Name: firefox-ext-scribefire
 Version: 3.4.1
-Release: %mkrel 2
+Release: %mkrel 3
 License: GPLv2
 Group: Networking/WWW
 URL: https://addons.mozilla.org/en-US/firefox/addon/1730
