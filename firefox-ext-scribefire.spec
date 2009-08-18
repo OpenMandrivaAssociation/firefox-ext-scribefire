@@ -12,6 +12,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 Requires: mozilla-firefox = %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-scribefire < %{version}-%{release}
 Provides: mozilla-firefox-ext-scribefire = %{version}-%{release}
+BuildRequires: firefox-devel
 
 %description
 ScribeFire (previously Performancing for Firefox) is a full-featured blog
