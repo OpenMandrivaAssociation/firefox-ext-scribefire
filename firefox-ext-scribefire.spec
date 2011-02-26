@@ -1,7 +1,7 @@
 Summary: ScribeFire extension for firefox
 Name: firefox-ext-scribefire
 Version: 3.5.3.3
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2
 Group: Networking/WWW
 URL: https://addons.mozilla.org/en-US/firefox/addon/1730
@@ -11,6 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 Requires: firefox >= %{firefox_epoch}:%{firefox_version}
 Obsoletes: mozilla-firefox-ext-scribefire < %{version}-%{release}
 Provides: mozilla-firefox-ext-scribefire = %{version}-%{release}
+Obsoletes: firefox-ext-scribefire < %{version}-%{release}
 BuildRequires: firefox-devel
 
 %description
