@@ -1,7 +1,7 @@
 Summary:	ScribeFire extension for firefox
 Name:		firefox-ext-scribefire
 Version:	4.0
-Release:	14
+Release:	15
 License:	GPLv2
 Group:		Networking/WWW
 Url:		https://addons.mozilla.org/en-US/firefox/addon/scribefire-next/
